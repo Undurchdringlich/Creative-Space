@@ -5,7 +5,7 @@ cmake_minimum_required (VERSION 3.8)
 project(Creative-Space)
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (${PROJECT_NAME} main.cpp "implemintation/")
+add_executable (${PROJECT_NAME} main.cpp "implemintation/Vector.cpp")
 
 # Указываем где могут находиться заголовочные файлы
 target_include_directories(${PROJECT_NAME} PRIVATE "headers/")
